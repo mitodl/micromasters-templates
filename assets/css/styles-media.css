@@ -76,7 +76,11 @@
 */
 
 .media-top {
-  min-height:135px; 
+  min-height:135px;
+}
+
+.media-top img {
+  border-radius:2px 2px 0 0 !important; 
 }
 
 .app-media .media-list.is-grid .media-item .media-top .overlay-tile-back {
@@ -232,7 +236,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  
 }
 
 .media-list .title {
@@ -247,7 +250,6 @@
 .media-list .description {
   padding:0 0 20px 0;
   min-height:70px;
-  max-height:70px;
   font-size:13px;
   color:#8B8B8B;
 }

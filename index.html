@@ -12,17 +12,15 @@
       <link rel="stylesheet" href="assets/css/site.min.css">
       <link rel="stylesheet" href="assets/css/styles-media.css">
       <!-- Plugins -->
-      
-      
-
+      <link rel="stylesheet" href="global/vendor/animsition/animsition.css">
       <!-- Fonts -->
-      <link rel="stylesheet" href="global/fonts/mfglabs/mfglabs.css">
-      <link rel="stylesheet" href="global/fonts/ionicons/ionicons.css">
+      <!-- <link rel="stylesheet" href="global/fonts/mfglabs/mfglabs.css">
+         <link rel="stylesheet" href="global/fonts/ionicons/ionicons.css"> 
+         <link rel="stylesheet" href="global/fonts/font-awesome/font-awesome.css">
+         -->
       <link rel="stylesheet" href="global/fonts/web-icons/web-icons.min.css">
-      <link rel="stylesheet" href="global/fonts/font-awesome/font-awesome.css">
       <!-- Custom -->
       <link rel="stylesheet" href="assets/css/styles.css">
-
       <!-- Scripts -->
       <script src="global/vendor/modernizr/modernizr.js"></script>
       <script src="global/vendor/breakpoints/breakpoints.js"></script>
@@ -30,160 +28,203 @@
          Breakpoints();
       </script>
    </head>
-   <body class="app-media">
-<nav class="navbar navbar-default" role="navigation">
-   <div class="container-fluid">
-      <div class="navbar-header">
-         
-         <a class="navbar-brand" href="javascript:void(0)"><img src="assets/images/logo-micromasters.png" alt="MIT Micromasters" /></a>
-         <div class="nav-utility pull-right">
-         <a class="btn btn-outline btn-success">
-         Sign In
-         </a>
-      </div>
-      </div>
-      <!-- <ul class="nav navbar-toolbar navbar-left">
-         <li class="active"><a href="">Programs</a></li>
-         </li>
-      </ul> -->
-      
-   </div>
-</nav>
-<div class="main-content-wrapper">
-   <section class="main-content">
-      <div class="banner-wrapper">
-         <div class="banner-wrapper-content">
-            <h1>
-               MIT credentials are now attainable by anyone in the world with the discipline, dedication, and intelligence to master course material. 
-            </h1>
-            <a href="add" type="button" class="btn btn-primary btn-lg">
-            <span>LEARN MORE</span>
-            </a> 
-         </div>
-         <div class="banner-bottom">
-            <div class="banner-wrapper-content">
-               <h2>Get Started Today! <a href="add" type="button" class="btn btn-success margin-left-10">
-                  <span>Sign in with edX.org</span>
-                  </a> 
-               </h2>
+   <body class="app-media layout-boxed">
+      <nav class="navbar navbar-default" role="navigation">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="javascript:void(0)"><img src="assets/images/logo-micromasters@2x.png" width="215" alt="MIT Micromasters" /></a>
+               <div class="nav-utility pull-right">
+                  <span>Get Started Today!</span> <a class="btn btn-danger">
+                  Sign in with edX.org 
+                  </a>
+               </div>
             </div>
+            <!-- <ul class="nav navbar-toolbar navbar-left">
+               <li class="active"><a href="">Programs</a></li>
+               </li>
+               </ul> -->
          </div>
-      </div>
-      <div class="panel panel-main-content">
-         <div class="panel-body">
-            <h3>Micromasters</h3>
-            <div class="media-list is-grid padding-bottom-50">
-               <ul class="blocks blocks-100 blocks-xlg-4 blocks-lg-3 blocks-md-3 blocks-ms-2 blocks-xs-2"
-                  data-plugin="animateList" data-child=">li">
-                  <li>
-                     <div class="media-item">
-                        <div class="media-top">
-                           <div class="image-wrap">
-                              <img class="image" src="assets/images/course-1.png"
-                                 alt="..."> 
-                           </div>
-                        </div>
-                        <div class="info-wrap">
-                           <div class="title">Very long title of course that can wrap</div>
-                           <div class="description">
-                              Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
-                           </div>
-                           <div class="media-footer">
-                              <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
-                              <div class="widget-rating">
-                                 <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+      </nav>
+      <div class="main-content-wrapper">
+         <section class="main-content">
+            <div class="banner-wrapper">
+               <div class="banner-wrapper-content">
+                  <h1>
+                     <div class="banner-image"><img src="assets/images/logo-mit-verylg@2x.png" alt="MIT" /></div>
+                     MIT credentials are now attainable by anyone in the world. 
+                  </h1>
+                  <!--<a href="add" type="button" class="btn btn-primary btn-lg">
+                     <span>LEARN MORE</span>
+                     </a> -->
+               </div>
+               <!--
+                  <div class="banner-bottom">
+                     <div class="banner-wrapper-content">
+                        <h2>Get Started Today! <a href="add" type="button" class="btn btn-success margin-left-10">
+                           <span>Sign in with edX.org</span>
+                           </a> 
+                        </h2>
+                     </div>
+                  </div>
+                  -->
+            </div>
+            <div class="row sub-banner">
+               <div class="col-md-12">
+                  <div class="sub-banner-content">
+                     MIT has created a new credential for online learners: the Micromasters, which will be granted by <a href="https://www.edx.org/school/mitx" target="_blank">MITx</a> to students who do exceptionally well in a given set of graduate-level online courses and do well in a subsequent exam. <a href="javascript:void()" data-target="#modal-about" data-toggle="modal">Learn more</a>.
+                  </div>
+               </div>
+            </div>
+            <div class="panel panel-main-content">
+               <div class="panel-body">
+                  <h3>Micromasters</h3>
+                  <div class="media-list is-grid padding-bottom-50">
+                     <ul class="blocks blocks-100 blocks-xlg-4 blocks-lg-3 blocks-md-3 blocks-ms-2 blocks-xs-2"
+                        data-plugin="animateList" data-child=">li">
+                        <li>
+                           <div class="media-item">
+                              <div class="media-top">
+                                 <div class="image-wrap">
+                                    <img class="image" src="assets/images/course-1.png"
+                                       alt="..."> 
+                                 </div>
+                              </div>
+                              <div class="info-wrap">
+                                 <div class="title">Very long title of course that can wrap</div>
+                                 <div class="description">
+                                    Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
+                                 </div>
+                                 <div class="media-footer">
+                                    <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
+                                    <div class="widget-rating">
+                                       <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <div class="media-item">
-                        <div class="media-top">
-                           <div class="image-wrap">
-                              <img class="image" src="assets/images/course-1.png"
-                                 alt="..."> 
-                           </div>
-                        </div>
-                        <div class="info-wrap">
-                           <div class="title">Very long title of course that can wrap</div>
-                           <div class="description">
-                              Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
-                           </div>
-                           <div class="media-footer">
-                              <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
-                              <div class="widget-rating">
-                                 <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+                        </li>
+                        <li>
+                           <div class="media-item">
+                              <div class="media-top">
+                                 <div class="image-wrap">
+                                    <img class="image" src="assets/images/course-1.png"
+                                       alt="..."> 
+                                 </div>
+                              </div>
+                              <div class="info-wrap">
+                                 <div class="title">Very long title of course that can wrap</div>
+                                 <div class="description">
+                                    Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
+                                 </div>
+                                 <div class="media-footer">
+                                    <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
+                                    <div class="widget-rating">
+                                       <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <div class="media-item">
-                        <div class="media-top">
-                           <div class="image-wrap">
-                              <img class="image" src="assets/images/course-1.png"
-                                 alt="..."> 
-                           </div>
-                        </div>
-                        <div class="info-wrap">
-                           <div class="title">Very long title of course that can wrap if very very long...</div>
-                           <div class="description">
-                              Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
-                           </div>
-                           <div class="media-footer">
-                              <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
-                              <div class="widget-rating">
-                                 <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+                        </li>
+                        <li>
+                           <div class="media-item">
+                              <div class="media-top">
+                                 <div class="image-wrap">
+                                    <img class="image" src="assets/images/course-1.png"
+                                       alt="..."> 
+                                 </div>
+                              </div>
+                              <div class="info-wrap">
+                                 <div class="title">Very long title of course that can wrap if very very long...</div>
+                                 <div class="description">
+                                    Lorem ipsum dolor sit amet, pro tantas causae imperdiet ei, sea no elitr deterruisset. Qui dolor laboramus voluptatum ut. Ad his amet timeam eripuit. Et utinam primis verterem nec.
+                                 </div>
+                                 <div class="media-footer">
+                                    <div class="widget-metas"><span class="meta-courses">4 courses + 1 final exam</span></div>
+                                    <div class="widget-rating">
+                                       <div class="rating rating-lg blue-600" data-score="4" data-read-only="true" data-class="blue-600" data-plugin="rating"></div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
-                     </div>
-                  </li>
-               </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <img src="assets/images/logo-mit-white.png" alt="">
+                  <div class="footer-links"><a href="javascript:void()" data-target="#modal-about" data-toggle="modal">About Micromasters</a> <a href="https://www.edx.org/" target="_blank">edX</a> <a href="https://odl.mit.edu/" target="_blank">Office of Digital Learning</a>
+                  </div>
+                  <div class="footer-address">
+                     Massachusetts Institute of Technology<br> Cambridge, MA 02139
+                  </div>
+               </div>
+               <div class="col-md-4 text-right">
+                  <div class="footer-cta"><a href="" class="btn btn-primary">Give to MIT</a></div>
+                  <div class="footer-copy">&copy; 2016, Massachusetts Institute of Technology</div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="modal fade modal-fade-in-scale-up" id="modal-about" aria-hidden="true" aria-labelledby="modal-about"
+         role="dialog" tabindex="-1">
+         <div class="modal-dialog modal-center">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                  </button>
+                  <!-- <h4 class="modal-title">About Micromasters</h4> -->
+               </div>
+               <div class="modal-body">
+                  <h2>Micromasters is a new credential</h2>
+                  <p>
+                     MIT has created a new credential for online learners: the “MicroMaster’s,” which will be granted by MITx (MIT’s online learning initiative) to students who do exceptionally well in a given set of graduate-level online courses and do well in a subsequent exam. The credential will first be available to students who register for the SCM program’s online courses.
+                  </p>
+                  <h3>Join the MIT Micromasters community</h3>
+                  <p>
+                     Micromasters aren't just about courseware. Part of the the MIT experience is interacting with other exceptional students like yourself. Fill out your profile on this site and build professional relationships with like-minded learners.
+                  </p>
+                  <h3>Micromasters courses are delivered through edX.org</h3>
+                  <p>
+                     Use your edX.org account to enroll in a Micromasters program and share your grades and progress with MIT. When you complete all the requirements and earn a Micromasters credential, you can use it to apply for a Masters degree at MIT.
+                  </p>
+               </div>
+               <!--
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     
+                  </div>
+                  -->
             </div>
          </div>
       </div>
-   </section>
-</div>
-<footer>
-   <div class="container">
-      <div class="row">
-         <div class="col-md-8">
-            <img src="assets/images/logo-mit-white.png" alt="">
-            <div class="footer-links"><a href="add" target="_blank">About Micromasters</a> <a href="https://www.edx.org/" target="_blank">edX</a> <a href="https://odl.mit.edu/" target="_blank">Office of Digital Learning</a>
-            </div>
-            <div class="footer-address">
-               Massachusetts Institute of Technology<br> Cambridge, MA 02139
-            </div>
-         </div>
-         <div class="col-md-4 text-right">
-            <div class="footer-cta"></div>
-            <div class="footer-copy">&copy; 2016, Massachusetts Institute of Technology</div>
-         </div>
-      </div>
-   </div>
-</footer>
       <script src="global/vendor/jquery/jquery.js"></script>
       <script src="global/vendor/bootstrap/bootstrap.js"></script>
-     
-   
+      <script src="global/vendor/animsition/animsition.js"></script>
+      <script src="global/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+      <script src="global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
       <!-- Plugins -->
-     
       <script src="global/vendor/raty/jquery.raty.js"></script>
-      
       <!-- Scripts -->
-      
-      <script src="global/js/components/animate-list.js"></script>
-      
-      <script src="global/js/components/raty.js"></script>
-
-
+      <script src="global/js/core.js"></script>
+      <script src="assets/js/site.js"></script>
+      <script src="global/js/components/asscrollable.js"></script>
+      <script src="global/js/components/animsition.js"></script>
+      <!-- <script src="global/js/components/animate-list.js"></script> -->
+      <script src="global/js/components/raty.js"></script> 
       <script>
-      (function(document, window, $) {
-   
-      })(document, window, jQuery);   
+         (function(document, window, $) {
+           'use strict';
+           var Site = window.Site;
+           $(document).ready(function() {
+             Site.run();
+           });
+         })(document, window, jQuery);
       </script>
-   </body>
 </html>
